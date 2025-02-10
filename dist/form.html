@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="myscript.js"></script>
+    </head>
+    <title>CE Portsmouth</title>
+<body class="body">
+<nav class="navigationbar">
+    <div id="navigationdiv">
+      <img src="images/BLW_logo.png" alt="CE Portsmouth LOGO" height="50px">
+      <h3>Christ Embassy Portsmouth</h3>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact_us.html">CONTACT US</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="form-container">
+    <h2>Contact Form</h2>
+    <form action="https://script.google.com/macros/s/AKfycbx7F0uKM6zcuz100WVi80zNIa1Mpg7F011KxWOlfH8iLdoKjRI9Tmk9Mf1pjGXwFkMU/exec" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="Firstname" required placeholder="Input yout First Name">
+    
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="Lastname" required placeholder="Input your Last Name">
+    
+        <label for="Phone Number">Phone Number:</label>
+        <input type="tel" name="Phone number" required pattern="[0-9]{11}" placeholder="Enter a 10-digit phone number">
+    
+        <label for="email">Email:</label>
+        <input type="email" name="email" required placeholder="Input yout Number">
+    
+        <label for="location">Location:</label>
+        <input type="text" name="Location" required placeholder="Where do you live?">
+    
+        <button type="submit">Submit</button>
+    </form>    
+    <p id="message"></p>
+</div>
+
+
+
+</body>
+
+
+</html>
